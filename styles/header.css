@@ -1,0 +1,61 @@
+
+
+#top-header{
+    padding: 1rem;
+    background-color: #f11e39;
+    color: #ffff;
+}
+
+.contato-telefone{
+    text-decoration: none;
+    color: #ffff;
+}
+
+#top-header ul li{
+    margin: .3rem 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#top-header ul li img{
+    width: 20px;
+    margin-right: 5px;
+}
+
+#top-header ul{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    list-style: none;
+}
+/*
+header{
+    background-color: #fff;
+}
+*/
+
+#header-logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1rem 0;
+    background-color: #ffff;
+}
+
+#nav-bar{
+    list-style: none;
+    display:flex ;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1rem 0;
+    background-color: #f11e39;
+}
+
+#nav-bar a{
+    text-decoration: none;
+    color: #ffff;
+}
+

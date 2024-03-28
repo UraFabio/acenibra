@@ -1,0 +1,15 @@
+#VoltarAoTopo {
+    display: none; /* Inicialmente esconde o botão */
+    width: 1.5rem;
+    position: fixed; /* Posiciona o botão fixamente na tela */
+    padding: .5rem;
+    bottom: 100px; /* Distância do botão em relação ao fundo */
+    right: .8rem; /* Distância do botão em relação à direita */
+    z-index: 99; /* Garante que o botão esteja acima de outros elementos */
+    background-color: rgb(241, 30, 57, .7);
+    border-radius: 10%;
+}
+
+#arrowUp{
+    width: 100%;
+}
