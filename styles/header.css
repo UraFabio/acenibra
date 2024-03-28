@@ -11,6 +11,10 @@
     color: #ffff;
 }
 
+#nome-acenibra{
+    font-weight: 500;
+}
+
 #top-header ul li{
     margin: .3rem 0;
     display: flex;
