@@ -1,10 +1,10 @@
 document.addEventListener('DOMContentLoaded', function() {
     const images = [
-        '../assets/images_carousel/image01.jpeg',
-        '../assets/images_carousel/image02.jpeg',
-        '../assets/images_carousel/image03.jpeg',
-        '../assets/images_carousel/image04.jpeg',
-        '../assets/images_carousel/image05.jpeg'
+        './assets/images_carousel/image01.jpeg',
+        './assets/images_carousel/image02.jpeg',
+        './assets/images_carousel/image03.jpeg',
+        './assets/images_carousel/image04.jpeg',
+        './assets/images_carousel/image05.jpeg'
     ]
 
     const carouselImages = document.querySelector('.carousel-images')
