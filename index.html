@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="./styles/global.css">
+    <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/carousel.css">
+    <link rel="stylesheet" href="./styles/main-content.css">
+    <link rel="stylesheet" href="./styles/footer.css">
+    
+    <title>ACENIBRA | Associação Cultural Nipo-Brasileira do Médio São Francisco</title>
+    <link rel="icon" type="image/png" href="./assets/favicon.ico">
+</head>
+<body>
+    <header>
+        <div id="logo-container" class="logo-container">
+            <a href="#"><img src="./assets/images/logo-acenibra-vazado.png" alt="logo acenibra"></a>
+            <div class="logo-text">
+                <span>Associação Cultura Nipo-Brasileira Do Médio São Francisco</span>
+                <span>サンフランシスコ河中流域日伯文化体育協会</span>
+            </div>
+        </div>
+            <div class="menu-icon" id="menu-icon">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+        <nav id="header-nav" class="header-nav">
+            <ul>
+                <li><a class="header-menu-option" href="#">Home</a></li>
+                <li><a class="header-menu-option" href="#history">Nossa História</a></li>
+                <li><a class="header-menu-option" href="#">Seinenkai</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <div id="carousel" class="carousel">
+            <button class="prev"><img src="./assets/icons/arrow-left-white.svg" alt=""></button>
+            <div class="carousel-images">
+
+            </div>
+            <button class="next"><img src="./assets/icons/arrow-rigth-white.svg" alt=""></button>
+        </div>
+
+        <div id="main-content" class="main-content">
+            <div id="history" class="history">
+                <span>Nossa História</span>
+                <iframe src="https://drive.google.com/file/d/1oDMVs8pVX9cLkrD8GHBA86h49NGMYtWQ/preview" height="auto" allow="autoplay; fullscreen" allowfullscreen></iframe>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="menu-contact">
+            <nav id="footer-menu" class="footer-menu">
+                <span>ACENIBRA</span>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#home">Nossa história</a></li>
+                    <li><a href="#">Seinenkai</a></li>
+                </ul>
+            </nav>
+            <nav id="footer-contact" class="footer-contact">
+                <span>CONTATO</span>
+                <ul>
+                    <li><a href="#"><img src="./assets/icons/whatsapp-white.svg" alt="logo whatsapp"><span>+55 (99) 1 2345-6789</a></span></li>
+                    <li><a target="_blank" href="https://www.instagram.com/acenibra/"><img src="./assets/icons/instagram-white.svg" alt="logo instagram"><span>@acenibra</a></span></li>
+                    <li><a target="_blank" href="#"><img src="./assets/icons/email-white.svg" alt="logo email"><span>acenibra@email.com</span></a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="location">
+
+        </div>
+        <div class="divider"></div>
+        <span class="copy">&copy Associação Cultura Nipo-Brasileira Do Médio São Francisco 2024</span>
+        <div class="footer-logo">
+            <img src="./assets/images/logo-acenibra-vazado-invertido.png" alt="logo-acenibra">
+            <div class="logo-text">
+                <span>Associação Cultura Nipo-Brasileira Do Médio São Francisco</span>
+                <span>サンフランシスコ河中流域日伯文化体育協会</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./scripts/menu.js"></script>
+    <script src="./scripts/carousel.js"></script>
+</body>
+</html>

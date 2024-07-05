@@ -1,0 +1,70 @@
+main {
+    .main-content {
+        padding: 4rem 10%;
+
+        .history {
+
+            span {
+                font-weight:500 ;
+                font-size: 2rem;
+
+            }
+        }
+
+        iframe {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 1rem 0;
+        }
+    }
+}
+
+@media only screen and (min-width: 520px) {
+    main {
+        .main-content{
+
+            
+            iframe {
+                height: 25rem;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1210px) {
+    main {
+        .main-content {
+
+            
+            iframe {
+                height: 35rem;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1800px) {
+    main {
+        .main-content{
+
+            
+            iframe {
+                height: 45rem;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 2000px) {
+    main {
+        .main-content{
+
+            
+            iframe {
+                height: 60rem;
+            }
+        }
+    }
+}
